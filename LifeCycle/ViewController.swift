@@ -9,9 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // viewDidLoad is called after the view controller has finished loading its views into memory.
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        print("ViewController - View Did Load")
     }
 
 
